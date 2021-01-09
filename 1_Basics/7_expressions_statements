@@ -1,0 +1,10 @@
+#author : Harisha
+#expression
+#it's a piece of code that produces the value
+iq = 100
+user_age = iq/5  
+#Expression: It's a piece of code that produces the value
+#Example iq/5
+#Statement: it's the entire line of code
+#exmaple1: iq = 100
+#example2: user_age = iq/5
