@@ -3,6 +3,15 @@
 print(20 + 3*4) #32
 print(20 - 3*4) #8
 print(20-2**2) #16
+print((5 + 4) * 10 / 2) #45
+
+print(((5 + 4) * 10) / 2) #45
+
+print((5 + 4) * (10 / 2)) #45
+
+print(5 + (4 * 10) / 2) #25.0
+
+print(5 + 4 * 10 // 2) #25
 #below is the order of the precedence
 # ()
 # **
