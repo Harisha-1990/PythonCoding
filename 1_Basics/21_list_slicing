@@ -1,0 +1,26 @@
+#author : Harisha
+#lists slicing
+#lists are mutable
+amazon_cart = ['notebooks'
+,'sunglasses'
+,'toys'
+,'grapes']
+print(amazon_cart[0::2])
+amazon_cart[0]='laptop'
+new_cart = amazon_cart
+new_cart[0]='gum'
+print(amazon_cart)
+print(new_cart)
+#interview question: 
+#why amazon cart list has changed? 
+#The reason is the way we did equals means that new cart is going to be equal to amazon cart but not equaling to the amazon cart list and hence amazon cart also got chnaged. 
+#If we want to copyt a list then you copy the entire list
+amazon_cart = ['notebooks'
+,'sunglasses'
+,'toys'
+,'grapes']
+amazon_cart[0]='laptop'
+new_cart = amazon_cart[:]
+new_cart[0]='gum'
+print(amazon_cart)
+print(new_cart)
