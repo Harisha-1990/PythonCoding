@@ -1,0 +1,10 @@
+#author : Harisha
+#opearator precedence
+print(20 + 3*4) #32
+print(20 - 3*4) #8
+print(20-2**2) #16
+#below is the order of the precedence
+# ()
+# **
+# * /
+# + -
