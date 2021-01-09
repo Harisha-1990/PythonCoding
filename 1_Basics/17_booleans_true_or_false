@@ -1,0 +1,13 @@
+#author : Harisha
+#booleans
+#booleans in python is bool
+#can either be True 1 or False 0
+#booleans are used to control the flow of program to do something if something is true to do something if something is false
+name ='Harisha'
+is_cool = False
+print(is_cool)
+is_cool = True
+print(is_cool)
+
+print(bool(1))# True
+print(bool(0)) #False
