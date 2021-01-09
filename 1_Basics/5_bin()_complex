@@ -1,0 +1,7 @@
+#author : Harisha
+#bin() and complex
+# bin is the binary represnatation
+print(bin(5)) #0b101
+print(int('0b101',2)) #5 (2 indicates that the 0b101 is the base version of binary number)
+
+#complex is also another datatype which stores the complex real times. I know that it exists but not used.
